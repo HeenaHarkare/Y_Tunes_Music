@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.header{
+    position: fixed;
+}
+
+.navbar{
+    height: 3rem;
+    width: 94rem;
+    padding-left: 1rem;
+    background-color: rgb(7, 7, 7);
+       
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li { 
+    list-style: none;  
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(254, 252, 252);
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.gap{
+    padding-left: 1.8rem;
+}
+main{
+   text-align: center;
+}
+/* Overview */
+.data{
+    padding-top: 13rem;
+    text-align: center;
+    height: 29rem;
+    color: white;
+    background-image: url('images/heroimage21.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.data h1{
+    font-size: 3rem;
+}
+.data h2{
+    font-size: 2.3rem;
+    padding-top: 2rem;
+}
+.data p{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+} 
+/* Music */
+.music-data{   
+     height: 75rem;
+     padding-top: 3rem;
+     background-color: rgb(72, 71, 71);
+}
+.music-data a{
+    
+    border: 1px solid black;
+    background-color: rgb(170, 10, 32);
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    position: relative;
+    top: 2rem;
+      
+}
+
+.music{
+    display: flex;
+    flex-direction: row;
+    color: white; 
+    
+}
+.music svg{
+    padding-left: 42rem;
+}
+.music h1{
+    font-size: 2.4rem;
+    padding-left: 0.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.music-data h3{
+    font-size: 2rem;
+    color: white;
+    padding-top: 1.4rem;
+}
+.music-data p{
+    padding-top: 2.2rem;
+    font-size: 1.4rem;
+    color: white;
+}
+.music-data h5{
+   padding-top: 4rem;
+   color: white;
+   font-size: 1rem;
+}
+
+/* Vieo data */
+
+.video-data{
+    padding-top: 4rem;
+    height: 75rem;
+    background-color: lightgrey;
+
+}
+.video-data h3{
+    font-size: 1.8rem;
+}
+.video-data p{
+    padding-top: 2.2rem;
+    font-size: 1.1rem;
+}
+.video-data button{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(23, 23, 98);
+} 
+.video-data a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    
+}
+.video-data img{
+    margin-top: 2rem;
+    width: 70rem;
+}
+.detail-data{
+    height: 30rem;
+    background-image: url('./images/bac.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.details{
+    padding-top: 11rem;
+    color: white;
+}
+.details h3{
+    font-size: 2.5rem;
+}
+.details p{
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+/* gift card data */
+.card-data{
+    height: 30rem;
+    padding-top: 2rem;
+}
+ .card-data-2{
+    padding-top: 1rem;
+    text-align: left;
+    padding: 2rem;
+    
+    
+ }
+.card-data-1>img{
+    padding-left: 7rem;
+    height: 25rem;
+    width: 38rem;
+}
+.card-data{
+    display: flex;
+   
+}
+.card-data-2 h2{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.card-data-2 p{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+   
+}
+.card-data-2 hr{
+  margin-top: 1rem;
+}
+.card-data-2 a{
+    text-decoration: none;
+    position: relative;
+    bottom: 0.2rem;
+    color: black;
+}
+/* footer data */
+.footer-data{
+   height: 17rem;
+   background-color: black;
+   display: flex;
+}
+.footer-design{
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 2rem; 
+}
+ul{
+    color: white;
+    padding: 3rem;
+    padding-top: 0.9rem;
+      
+}
+
+ul li{
+    list-style: none; 
+    padding: 0.3rem;    
+}
+li a{
+    text-decoration: none;
+    color: white;   
+}
+ hr{
+    margin-top: 0.9rem;
+    width: 12rem;   
+}
+.left{
+    margin-left: 1rem;
+}
+.top{
+    padding-top: 1rem;
+}
+.footer{
+    background-color:rgb(31, 30, 30) ;
+    height: 3rem;
+    color: white;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
